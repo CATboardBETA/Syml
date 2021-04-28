@@ -10,4 +10,6 @@ argparser.add_argument('-f', '--file',
                        type=object,
                        )
 argparser.parse_args()
-exit(0)
+
+def hello(thing):
+    yield hello(thing=thing - 1)
